@@ -6,6 +6,75 @@
   <title>Prova Form</title>
 </head>
 <body>
+  <form action="" autocomplete="on">
+    <table>
+      
+      <tr>
+        <td><label for=""><strong>Nome:</strong></label></td>
+        <td><input type="text" placeholder="Inserisci il nome" maxlength="30" required></td>
+      </tr>
+      
+      <tr>
+        <td><label for=""><strong>Cogome:</strong></label></td>
+        <td><input type="text" placeholder="Inserisci il cognome" maxlength="40" required></td>
+      </tr>
+
+      <tr>
+        <td><label for=""><strong>Numero cellulare:</strong></label></td>
+        <td><input type="tel" placeholder="Inserisci il numero cellulare" maxlength="10" required></td>
+      </tr>
+
+      <tr>
+        <td><label for=""><strong>Numero di matricola:</strong></label></td>
+        <td><input type="number" placeholder="Inserisci la matricola" minlength="0" maxlength="7" required></td>
+      </tr>
+
+      <tr>
+        <td><label for=""><strong>Email:</strong></label></td>
+        <td><input type="email" placeholder="Inserisci la email" maxlength="30" required></td>
+      </tr>
+
+      <tr>
+        <td><label for=""><strong>Regione di residenza:</strong></label></td>
+        <td>
+          <select name="Regione" id="" aria-placeholder="sele" required>
+            <option></option>
+            <option>Abruzzo</option>
+            <option>Basilicata</option>
+            <option>Calabria</option>
+            <option>Campania</option>
+            <option>Emilia-Romagna</option>
+            <option>Friuli Venezia Giulia</option>
+            <option>Lazio</option>
+            <option>Liguria</option>
+            <option>Lombardia</option>
+            <option>Marche</option>
+            <option>Molise</option>
+            <option>Piemonte</option>
+            <option>Puglia</option>
+            <option>Sardegna</option>
+            <option>Sicilia</option>
+            <option>Toscana</option>
+            <option>Trentino-Alto Adige</option>
+            <option>Umbria</option>
+            <option>Valle d'Aosta</option>
+            <option>Veneto</option>
+        </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for=""><strong>Status:</strong>(es. in corso, fuori corso,
+          ripetente, part-time)</label></td>
+        <td><input type="text" placeholder="Inserisci il tuo status" maxlength="30" required></td>
+      </tr>
+    </table>
+    <textarea name="" id="" cols="60" rows="12" placeholder="Inserici le tue richieste particolari"></textarea><br>
+
+    <input type="submit" value="Invia" onclick="alert('Form inviato con  successo!')">
+    <input type="reset" onclick="alert('Form reimpostato')">
+    
+  </form>
   
 </body>
 </html>
