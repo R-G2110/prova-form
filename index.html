@@ -64,9 +64,15 @@
       </tr>
 
       <tr>
-        <td><label for=""><strong>Status:</strong>(es. in corso, fuori corso,
-          ripetente, part-time)</label></td>
-        <td><input type="text" placeholder="Inserisci il tuo status" maxlength="30" required></td>
+        <td><label for=""><strong>Status:</strong></label></td>
+        <td><input type="text" name="stat" size="30" maxlength="30" list="listastatus">
+          <datalist id="listastatus">
+          <option value="in corso">
+          <option value="fuori corso">
+          <option value="ripetente">
+          <option value="part-time">
+          </datalist>
+          </td>
       </tr>
     </table>
     <textarea name="" id="" cols="60" rows="12" placeholder="Inserici le tue richieste particolari"></textarea><br>
