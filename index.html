@@ -65,20 +65,21 @@
 
       <tr>
         <td><label for=""><strong>Status:</strong></label></td>
-        <td><input type="text" name="stat" size="30" maxlength="30" list="listastatus">
+        <td>
+          <input type="text" name="stat" size="30" maxlength="30" list="listastatus">
           <datalist id="listastatus">
-          <option value="in corso">
-          <option value="fuori corso">
-          <option value="ripetente">
-          <option value="part-time">
+          <option value="in corso"></option>
+          <option value="fuori corso"></option>
+          <option value="ripetente"></option>
+          <option value="part-time"></option>
           </datalist>
-          </td>
+        </td>
       </tr>
     </table>
     <textarea name="" id="" cols="60" rows="12" placeholder="Inserici le tue richieste particolari"></textarea><br>
 
     <input type="submit" value="Invia" onclick="alert('Form inviato con  successo!')">
-    <input type="reset" onclick="alert('Form reimpostato')">
+    <input type="reset" value="Reimposta" onclick="alert('Form reimpostato')">
     
   </form>
   
